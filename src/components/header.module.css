@@ -1,0 +1,120 @@
+.header {
+    display: flex;
+    align-self: stretch;
+    flex-direction: column;
+}
+
+.title {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.subTitle {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.linkContainer {
+    margin-bottom: 10px;
+}
+
+.link {
+    font-size: 36px;
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.top {
+    display: flex;
+    align-self: stretch;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.languageSwitch {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    margin-bottom: 10px;
+}
+
+.languageSwitchTitle {
+    color: gray;
+    flex-shrink: 0;
+}
+
+.languageSwitchList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.languageSwitchListItem {
+    margin-left: 8px;
+    margin-right: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: gray;
+    text-decoration: none;
+    flex-shrink: 0;
+}
+
+.languageSwitchListItemActive {
+    color: black;
+}
+
+.contacts {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    font-size: 16px;
+
+    flex-wrap: wrap;
+}
+
+.community {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 7px;
+
+    font-size: 16px;
+
+    flex-wrap: wrap;
+}
+
+.contactHeader {
+    margin-right: 6px;
+    flex-shrink: 0;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.contactGroup {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 6px;
+    margin-right: 6px;
+    color: black;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    flex-shrink: 0;
+}
+
+.contactIcon {
+    height: 16px;
+    width: 16px;
+    display: block;
+    margin-right: 4px;
+}
